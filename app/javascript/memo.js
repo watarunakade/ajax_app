@@ -1,4 +1,4 @@
-function post (XHR) => {
+function post (XHR){
   const item = XHR.response.post;
   const html = `
     <div class="post">
