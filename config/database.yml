@@ -17,7 +17,6 @@ default: &default
 
 development:
   <<: *default
-  database: ajax_app_development
   username: root
   password:
   host: localhost
